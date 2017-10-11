@@ -2,6 +2,12 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.5.
 
+This is a sample code demonstrating reactive forms with validation.
+The form asks for credit card information and validates it using form Validators.
+The type of the credit card is validated using simple regex, however, only MasterCard, VisaCard and AmericanExpress are validated so far.
+
+Furthermore, the form using bootstrap 3 and jQuery to function and style.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
